@@ -12,7 +12,25 @@ export default function App() {
           <Dictionary />
         </main>
         <footer>
-          <small>Coded by Teresa Gavric</small>
+          <small>
+            Coded by Teresa Gavric
+            <br />
+            <a
+              href="https://github.com/ter-gav/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open-sourced on GitHub
+            </a>{" "}
+            &{" "}
+            <a
+              href="https://angry-shockley-dc44da.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              hosted on Netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>
