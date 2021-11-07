@@ -5,6 +5,9 @@ export default function Synonym(props) {
   if (props.synonym) {
     return (
       <div className="Synonym">
+        <div>
+          <strong>Similar: </strong>
+        </div>
         {props.synonym.map(function (synonym, index) {
           return (
             <span className="synonym" key={index}>
