@@ -1,9 +1,20 @@
 .App {
   margin: 30px 0;
+}
+
+.App h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
   text-align: center;
+  padding: 20px;
 }
 
 .App img {
   width: 80px;
-  margin: 20px 0;
+  margin: 0 auto;
+  display: block;
+}
+
+.App footer {
+  text-align: center;
 }

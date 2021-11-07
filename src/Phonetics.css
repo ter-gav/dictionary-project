@@ -1,0 +1,12 @@
+.Phonetics a {
+  font-size: 25px;
+  color: #76adb8;
+  margin-left: 5px;
+}
+
+.Phonetics .text {
+  font-size: 20px;
+  font-style: italic;
+  line-height: 2;
+  color: rgb(66, 65, 65);
+}
