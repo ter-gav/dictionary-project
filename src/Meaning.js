@@ -10,16 +10,24 @@ export default function Meaning(props) {
         if (definition.example) {
           return (
             <div key={index}>
-              <div className="definition">{definition.definition}</div>
-              <div className="example">"{definition.example}"</div>
-              <Synonym synonym={definition.synonyms} />
+              <ul>
+                <li>
+                  <div className="definition">{definition.definition}</div>
+                  <div className="example">"{definition.example}"</div>
+                  <Synonym synonym={definition.synonyms} />
+                </li>
+              </ul>
             </div>
           );
         } else {
           return (
             <div key={index}>
-              <div className="definition">{definition.definition}</div>
-              <Synonym synonym={definition.synonyms} />
+              <ul>
+                <li>
+                  <div className="definition">{definition.definition}</div>
+                  <Synonym synonym={definition.synonyms} />
+                </li>
+              </ul>
             </div>
           );
         }

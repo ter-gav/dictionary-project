@@ -1,10 +1,16 @@
 .Meaning h3 {
   font-size: 30px;
   font-style: oblique;
+  padding-bottom: 10px;
+}
+
+.Meaning ul {
+  list-style: circle;
 }
 
 .Meaning .definition {
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 
