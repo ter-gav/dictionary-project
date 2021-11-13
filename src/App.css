@@ -1,6 +1,7 @@
 .App {
   max-width: 960px;
   margin: 30px auto;
+  color: #272343;
 }
 
 .App h1 {
@@ -10,12 +11,19 @@
   padding: 20px;
 }
 
-.App img {
+.App .logo {
   width: 80px;
+}
+
+.App img {
   margin: 0 auto;
   display: block;
 }
 
 .App footer {
   text-align: center;
+}
+
+.App a {
+  color: #272343;
 }
